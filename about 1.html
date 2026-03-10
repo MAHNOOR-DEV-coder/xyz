@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Campus Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>Lost & Found</h2>
+        <ul>
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#report">Report Lost Item</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#register">Register</a></li>
+        </ul>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+
+        <!-- DASHBOARD -->
+        <section id="dashboard">
+            <h1>Lost & Found Report</h1>
+
+            <div class="cards">
+                <div class="card"><h3>Total Reports</h3><p>128</p></div>
+                <div class="card"><h3>Active Complaints</h3><p>5</p></div>
+                <div class="card"><h3>Items Matched</h3><p>12</p></div>
+                <div class="card"><h3>Events Registered</h3><p>8</p></div>
+            </div>
+        </section>
+
+        <!-- REPORT LOST ITEM -->
+        <section id="report">
+            <h1>Report Lost Item</h1>
+
+            <div class="form-card">
+                <input type="text" placeholder="Item Name">
+                <textarea placeholder="Description"></textarea>
+                <select>
+                    <option>Block A</option>
+                    <option>Library</option>
+                </select>
+                <button class="blue-btn">Submit Complaint</button>
+            </div>
+        </section>
+
+        <!-- EVENTS -->
+        <section id="events">
+            <h1>Events</h1>
+
+            <div class="event-banner">
+                <h2>Community Cleanup</h2>
+                <p>Saturday, 22th June</p>
+                <span>City Park</span>
+            </div>
+
+            <div class="event-row">
+                <div class="event-card">
+                    <h3>Tech Workshop</h3>
+                    <p>June 5</p>
+                </div>
+
+                <div class="event-card">
+                    <h3>Health Camp</h3>
+                    <p>July 5</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- REGISTER -->
+        <section id="register">
+            <h1>Event Registration</h1>
+
+            <div class="form-card">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+                <select>
+                    <option>Tech Workshop</option>
+                    <option>Health Camp</option>
+                </select>
+                <button class="blue-btn">Submit Registration</button>
+            </div>
+        </section>
+
+    </div>
+
+</div>
+
+</body>
+</html>
+
+
